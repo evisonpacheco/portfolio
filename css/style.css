@@ -1,7 +1,11 @@
+body{
+    background-color: #202020;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-.subtitle{
-    margin-top: 20px;
-    margin-bottom: 10px;
+.logo{
+    width: 100px;
+    height: 50px;
 }
 
 header,
@@ -12,20 +16,8 @@ footer {
     padding: 5px;
 }
 
-.logo{
-    width: 100px;
-    height: 50px;
-    
-}
-
-footer {
-    margin-top: 20px;
-    text-align: center;
-}
-
-p {
-    margin-bottom: 10px;
-    text-align: justify;
+main{
+    color: goldenrod;
 }
 
 .col{
@@ -33,44 +25,20 @@ p {
     height: auto;
 }
 
-.perfil {
-    width: 300px;
-    height: auto;
+.perfil{
+    border-radius: 50%;
 }
 
-#logo {
-    width: 40px;
-    margin: 30px 0;
-    height: auto;
+aside{
+    text-align: left;
 }
 
-.carousel{
-    margin-bottom: 30px;
-    margin-top: 30px;
-    max-height: 400px;
-    overflow: hidden;
-    width: 1280px;
-    height: 959px
+footer {
+    margin-top: 20px;
+    text-align: center;
 }
-
-.carousel img {
-    width: auto;
-    height: 500px;
-}
-
-.card{
-    margin-top: 15px;
-    margin-left: 0px;
-    margin-bottom: 15px;
-    margin-right: 0px;
-}
-
-.card-title{
-   text-align: center;
-}
-
-.card-img-top {
-    width: 100px;
-    height: auto;
-    align-self: center;
+    
+p {
+    margin-bottom: 10px;
+    text-align: justify;
 }
