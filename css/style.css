@@ -1,76 +1,54 @@
-
-.subtitle{
-    margin-top: 20px;
-    margin-bottom: 10px;
+*{
+    margin: 0;
+    padding: 0;
 }
-
-header,
-footer {
-    background-color: black;
-    color: white;
-    height: auto;
-    padding: 5px;
+body{
+    background-color: #202020;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo{
     width: 100px;
     height: 50px;
-    
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+header,
+footer {
+    background-color: black;
+    color: white;
+}
+
+main{
+    color: #daa520;
+}
+
+.about p{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 250px;
+    height: 256px;
+}
+
+#background{
+    height: 100vh;
+    background: url('../images/background.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+aside{
+    text-align: left;
 }
 
 footer {
     margin-top: 20px;
     text-align: center;
-}
-
-p {
-    margin-bottom: 10px;
-    text-align: justify;
-}
-
-.col{
-    width: auto;
-    height: auto;
-}
-
-.perfil {
-    width: 300px;
-    height: auto;
-}
-
-#logo {
-    width: 40px;
-    margin: 30px 0;
-    height: auto;
-}
-
-.carousel{
-    margin-bottom: 30px;
-    margin-top: 30px;
-    max-height: 400px;
-    overflow: hidden;
-    width: 1280px;
-    height: 959px
-}
-
-.carousel img {
-    width: auto;
-    height: 500px;
-}
-
-.card{
-    margin-top: 15px;
-    margin-left: 0px;
-    margin-bottom: 15px;
-    margin-right: 0px;
-}
-
-.card-title{
-   text-align: center;
-}
-
-.card-img-top {
-    width: 100px;
-    height: auto;
-    align-self: center;
 }
