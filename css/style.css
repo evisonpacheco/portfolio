@@ -25,9 +25,15 @@ footer {
 
 main{
     color: #daa520;
+    background: url('../images/background.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+#about{
+    width: 50vw;
+    background-color: gray;
 }
 
-.about p{
+#about p{
     margin-bottom: 10px;
     text-align: justify;
 }
@@ -38,10 +44,9 @@ main{
     height: 256px;
 }
 
-#background{
+#home{
     height: 100vh;
-    background: url('../images/background.jpg') no-repeat center fixed;
-    background-size: cover;
+    
 }
 
 aside{
