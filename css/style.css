@@ -27,7 +27,17 @@ main{
     color: #daa520;
 }
 
-.about p{
+#home{
+    height: 100vh;
+    background: url('../images/background.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+#about, #skills, #projects, #contact {
+    height: 22rem;
+}
+
+#about p{
     margin-bottom: 10px;
     text-align: justify;
 }
@@ -36,12 +46,6 @@ main{
     border-radius: 50%;
     width: 250px;
     height: 256px;
-}
-
-#background{
-    height: 100vh;
-    background: url('../images/background.jpg') no-repeat center fixed;
-    background-size: cover;
 }
 
 aside{
