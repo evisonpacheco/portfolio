@@ -2,8 +2,14 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --color0: #202020;
+    --color1: #3C080A;
+    --color2: #C2A83E;
+    --color3: #CBF7ED;
+}
 body{
-    background-color: #202020;
+    background-color: var(--color0);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -19,12 +25,12 @@ header{
 }
 header,
 footer {
-    background-color: black;
-    color: white;
+    background-color: var(--color1);
+    color: var(--color3);
 }
 
 main{
-    color: #daa520;
+    color: var(--color2);
 }
 
 #home{
