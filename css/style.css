@@ -43,6 +43,11 @@ main{
     height: 22rem;
 }
 
+.icon{
+    height: 3rem;
+    width: auto;
+}
+
 #about p{
     margin-bottom: 10px;
     text-align: justify;
