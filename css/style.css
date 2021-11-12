@@ -79,6 +79,7 @@ nav li a:hover{
 
 h2 {
     text-align: center;
+    font-size: 2rem;
 }
 
 
@@ -86,32 +87,42 @@ h2 {
 
 #about {
     max-width: 80rem;
-    margin: auto;
+    margin: 0 auto;
+    padding: 2rem 0;
 }
 
-.flexContainerAbout {
+.containerAbout {
     display: flex;
     justify-content: space-around;
+    min-width: 20rem;
+    max-width: 60rem;
+    margin: 0 auto;
 }
 
 .personal {
     width: 25rem;
     text-align: center;
+    position: relative;
+    box-sizing: border-box;
 }
 
-.personal>p {
+.personal .resume {
     text-align: justify;
+    position: absolute;
+    top: 30%;
 }
 
-.personal>aside {
+.personal aside {
     text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem 0 0;
 }
 
 .avatar {
     border: 2.5px solid var(--color2);
     border-radius: 50%;
-    width: 250px;
-    height: 256px;
+    max-width: 250px;
+    box-sizing: border-box;
 }
 
 aside {
