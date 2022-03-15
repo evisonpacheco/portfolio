@@ -1,0 +1,31 @@
+.header{
+  align-items: center;
+  background-color: var(--color0);
+  color: var(--color3);
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.header__title {
+  color: var(--color2);
+  font-size: 1.5rem;
+}
+
+.list__item {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.list__link {
+  color: var(--color2);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.list__link:hover {
+  color: var(--color3);
+}
