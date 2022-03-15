@@ -1,0 +1,30 @@
+#projects {
+  margin: 0 auto;
+  max-width: 80rem;
+  padding: 5rem 0;
+}
+
+.projects__title {
+  color: var(--color2);
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project {
+  background-color: var(--color4);
+  border-radius: 50%;
+  color: var(--color0);
+  height: 10rem;
+  position: relative;
+  width: 10rem;
+}
+
+.project__title {
+  text-align: center;
+}
