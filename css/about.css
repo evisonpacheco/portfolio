@@ -1,12 +1,13 @@
 #about {
   margin: 0 auto;
   max-width: 80rem;
-  padding: 2rem 0;
+  padding: 5rem 0;
 }
 
 .about__title {
-  margin-bottom: 2rem;
+  color: var(--color2);
   font-size: 2rem;
+  margin-bottom: 5rem;
   text-align: center;
 }
 
