@@ -145,4 +145,66 @@ footer {
   background: url("../images/background.jpg") no-repeat center fixed;
   background-size: cover;
 }
+
+#about {
+  margin: 0 auto;
+  max-width: 80rem;
+  padding: 5rem 1rem;
+}
+
+#about .about__title {
+  color: var(--color2);
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 auto;
+  max-width: 60rem;
+  min-width: 20rem;
+}
+
+.about .resume {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  width: 25rem;
+}
+
+.about .resume .resume__description {
+  position: absolute;
+  text-align: left;
+  top: 10%;
+}
+
+.avatar {
+  padding: 0.2rem;
+}
+
+.avatar .avatar__image {
+  border: 2.5px solid #C2A83E;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 100%;
+}
+
+.avatar .avatar__description {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem 0 0;
+}
+
+@media screen and (min-width: 800px) {
+  .resume__description {
+    font-size: 1.2rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
