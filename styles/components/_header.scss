@@ -14,7 +14,9 @@
 
   .header__title {
     color: $color-three;
+    display: none;
     margin-left: 1rem;
+    text-align: center;
   }
 }
 
@@ -36,23 +38,19 @@
     .list__link {
       color: $color-two;
       text-decoration: none;
+
+      &:hover {
+        color: $color-three;
+      }
     }
 
-    .list__link:hover {
-      color: $color-three;
-    }
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .header__title {
-    display: none;
+    
   }
 }
 
 @media screen and (min-width: 800px) {
   .header {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 
     .header__title {
       display: block;

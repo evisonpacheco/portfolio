@@ -92,7 +92,9 @@ footer {
 
 .header .header__title {
   color: #CBF7ED;
+  display: none;
   margin-left: 1rem;
+  text-align: center;
 }
 
 .header__menu {
@@ -124,15 +126,9 @@ footer {
   color: #CBF7ED;
 }
 
-@media screen and (max-width: 800px) {
-  .header__title {
-    display: none;
-  }
-}
-
 @media screen and (min-width: 800px) {
   .header {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .header .header__title {
     display: block;
