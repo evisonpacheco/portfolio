@@ -209,4 +209,72 @@ footer {
     font-size: 1.5rem;
   }
 }
+
+#skills {
+  margin: 0 auto;
+  max-width: 80rem;
+  padding: 2rem 1rem;
+}
+
+#skills .skills__title {
+  color: #C2A83E;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.skills .skill-container {
+  color: #202020;
+  margin-bottom: 2rem;
+  width: calc(50% - 2rem);
+}
+
+.skills .skill-container .skill {
+  background-color: #c9d0d3;
+  border-radius: 1rem;
+  margin: 0 auto;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.skills .skill-container .skill .skill__title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.skills .skill-container .skill .skill__icon {
+  height: 3rem;
+  padding-top: 0.5rem;
+  width: auto;
+}
+
+@media screen and (min-width: 800px) {
+  .skill {
+    width: 10rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .skill-container {
+    width: calc(25% - 2rem) !important;
+  }
+  .skill-container .skill {
+    width: 15rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
