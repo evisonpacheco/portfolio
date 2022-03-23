@@ -1,7 +1,7 @@
 #about {
   margin: 0 auto;
   max-width: 80rem;
-  padding: 5rem 1rem;
+  padding: 2rem 1rem;
 
   .about__title {
     color: var(--color2);
@@ -43,7 +43,6 @@
 }
 
   .avatar__description {
-    font-size: 1.5rem;
     text-align: center;
     padding: 1rem 0 0;
 }
@@ -52,5 +51,9 @@
 @media screen and (min-width: 800px) {
   .resume__description {
     font-size: 1.2rem;
+  }
+
+  .avatar__description {
+    font-size: 1.5rem;
   }
 }
