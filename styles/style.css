@@ -273,4 +273,37 @@ footer {
     width: 15rem;
   }
 }
+
+#projects {
+  margin: 0 auto;
+  max-width: 80rem;
+  padding: 2rem 1rem;
+}
+
+.projects__title {
+  color: #C2A83E;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center space-around;
+}
+
+.projects .project {
+  background-color: #c9d0d3;
+  color: #202020;
+  height: 10rem;
+  margin: 1rem 0;
+  width: 10rem;
+}
+
+.projects .project__title {
+  padding: 1rem 0 0;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */

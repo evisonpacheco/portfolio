@@ -1,0 +1,33 @@
+@import '../abstract/variables';
+
+#projects {
+  margin: 0 auto;
+  max-width: 80rem;
+  padding: 2rem 1rem;
+}
+
+.projects__title {
+  color: $color-two;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  place-content: center space-around;
+
+  .project {
+    background-color: $color-four;
+    color: $color-zero;
+    height: 10rem;
+    margin: 1rem 0;
+    
+    width: 10rem;
+  }
+
+  .project__title {
+    padding: 1rem 0 0;
+    text-align: center;
+  }
+}
