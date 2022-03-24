@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Evison Pacheco</title>
+  <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./styles/style.css">
 
 </head>
@@ -74,16 +75,40 @@
       </div>
     </section>
 
-    <section id="projects">
-      <h2 class="projects__title">Projetos</h2>
-      <div class="projects">
-        <article class="project">
-          <h3 class="project__title">Weather Forecast</h3>
-        </article>
-        <article class="project">
-          <h3 class="project__title">News Page</h3>
-        </article>
-      </div>
+    <section id="id-projects">
+      <h2 class="id-projects__title">Projetos</h2>
+
+      <article class="projects">
+        <div class="projects-carousel js-carousel">
+          <div class="project">
+            <h3 class="project__title">Weather Forecast</h3>
+          </div>
+
+          <div class="project">
+            <h3 class="project__title">News Page</h3>
+          </div>
+
+          <div class="project">
+            <h3 class="project__title">Teste 3</h3>
+          </div>
+
+          <div class="project">
+            <h3 class="project__title">Teste 4</h3>
+          </div>
+
+          <div class="project">
+            <h3 class="project__title">Teste 5</h3>
+          </div>
+
+          <div class="project">
+            <h3 class="project__title">Teste 6</h3>
+          </div>
+        </div>
+      </article>
+      
+      <button class="id-projects__button id-projects__button--prev js-carousel-prev">&lt; Anterior</button>
+      <button class="id-projects__button id-projects__button--next js-carousel-next">Próximo &gt;</button>
+      <div role="tablist" class="dots js-dots"></div>
     </section>
 
     <section id="contacts">
@@ -111,5 +136,6 @@
     </footer>
 
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+<script src="./glider.js"></script>
 </html>

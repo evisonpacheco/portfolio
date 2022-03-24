@@ -1,33 +1,65 @@
 @import '../abstract/variables';
 
-#projects {
+#id-projects {
   margin: 0 auto;
   max-width: 80rem;
   padding: 2rem 1rem;
-}
-
-.projects__title {
-  color: $color-two;
-  font-size: 2rem;
-  margin-bottom: 5rem;
   text-align: center;
+
+  .id-projects__title {
+    color: $color-two;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .id-projects__button {
+    color: $color-zero;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1.5rem 1rem 1.5rem;
+    height: 2.2rem;
+    text-align: center;
+    width: 6rem;
+
+    &:hover {
+      cursor: pointer;
+     }
+
+    &--prev {
+      border-radius: 100% 0 0 100%;
+    }
+
+    &--next {
+      border-radius: 0 100% 100% 0;
+    }
+   
+  }
+
+  
 }
 
 .projects {
-  display: flex;
-  place-content: center space-around;
-
-  .project {
+  
+  .projects-carousel {
     background-color: $color-four;
-    color: $color-zero;
-    height: 10rem;
-    margin: 1rem 0;
-    
-    width: 10rem;
+    border: 3px solid $color-two;
+    height: 15rem;
+    width: 15rem;
   }
 
-  .project__title {
-    padding: 1rem 0 0;
-    text-align: center;
+  .project {
+    color: $color-zero;
+
+    .project__title {
+      padding: 1rem 0 0;
+      text-align: center;
+    }
+  }  
+}
+
+@media screen and (min-width: 800px) {
+  .projects-carousel {
+    width: 40rem !important; 
   }
 }
