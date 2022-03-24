@@ -1,4 +1,4 @@
-const $simpleCarousel = document.querySelector('.js-carousel')
+const $simpleCarousel = document.querySelector('.js-carousel');
 
   new Glider($simpleCarousel, {
   slidesToShow: 1,
