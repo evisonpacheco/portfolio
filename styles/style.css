@@ -57,7 +57,7 @@ html {
 }
 
 body {
-  background-color: #3C080A;
+  background-color: #202020;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -65,18 +65,11 @@ main {
   color: #C2A83E;
 }
 
-footer {
-  background-color: #202020;
-  color: #CBF7ED;
-  margin-top: 20px;
-  text-align: center;
-}
-
 .header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #202020;
+  background-color: #3C080A;
   color: #C2A83E;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -395,6 +388,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #3C080A;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
