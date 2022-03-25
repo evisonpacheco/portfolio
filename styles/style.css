@@ -74,7 +74,7 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 1rem;
+  font-size: 0.9rem;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding: 1rem 0;
@@ -91,7 +91,7 @@ main {
 }
 
 .header__menu {
-  width: 100%;
+  width: 80%;
 }
 
 .header__menu .list {
@@ -104,6 +104,7 @@ main {
 
 .header__menu .list .list__item {
   display: inline-block;
+  font-weight: bold;
 }
 
 .header__menu .list .list__item:not(:first-child) {

@@ -2,10 +2,10 @@
 
 .header {
   align-items: center;
-  background-color: $color-zero;
+  background-color: $color-one;
   color: $color-two;
   display: flex;
-  font-size: 1rem;
+  font-size: 0.9rem;
   justify-content: space-around;
   padding: 1rem 0;
   position: fixed;
@@ -21,7 +21,7 @@
 }
 
 .header__menu {
-  width: 100%;
+  width: 80%;
 
   .list {
     display: flex;
@@ -29,6 +29,7 @@
 
     .list__item {
       display: inline-block;
+      font-weight: bold;
 
       &:not(:first-child) {
         margin-left: 0.5rem;
