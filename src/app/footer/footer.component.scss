@@ -1,0 +1,11 @@
+@import '../../styles/abstract/variables';
+
+.footer {
+    align-items: center;
+    background-color: $color-one;
+    color: $color-four;
+    display: flex;
+    height: 2.5rem;
+    justify-content: center;
+  }
+  

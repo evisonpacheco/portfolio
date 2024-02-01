@@ -1,0 +1,61 @@
+@import '../abstract/variables';
+
+#contacts {
+  margin: 0 auto;
+  max-width: 80rem;
+  padding: 2rem 0;
+
+  .contacts__title {
+    color: $color-two;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  .contact-item {
+    background-color: $color-four;
+    border: 2px solid $color-three;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+    width: 16rem;
+
+    &:hover:not(:last-child) {
+      border: 2px solid green;
+      cursor: pointer;
+    }
+
+    &__title {
+      color: $color-zero;
+      font-size: 1.5rem;
+    }
+    
+    &__icon {
+      height: 3rem;
+      padding-top: 1rem;
+      width: auto;
+    }
+    
+    &__subtitle {
+      color: $color-zero;
+      font-size: 1.5rem;
+
+      &:not(:first-child) {
+        margin-top: 1rem;
+      }
+    }
+
+    &__description {
+      color: $color-zero;
+    }
+  }
+}

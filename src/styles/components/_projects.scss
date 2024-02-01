@@ -1,4 +1,4 @@
-@import '../styles/abstract/variables';
+@import '../abstract/variables';
 
 #id-projects {
   margin: 0 auto;
@@ -50,7 +50,7 @@
   }
 
   .project:nth-child(1){
-    background-image: url("../assets/images/projects/background-weather-forecast.jpg");
+    background-image: url("../../images/background-weater-forecast.jpg");
     color: $color-four;
   }
 

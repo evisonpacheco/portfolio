@@ -1,0 +1,61 @@
+@import '../abstract/variables';
+
+.header {
+  align-items: center;
+  background-color: $color-one;
+  color: $color-two;
+  display: flex;
+  font-size: 0.9rem;
+  justify-content: space-around;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+
+  .header__title {
+    color: $color-three;
+    display: none;
+    margin-left: 1rem;
+    text-align: center;
+  }
+}
+
+.header__menu {
+  width: 80%;
+
+  .list {
+    display: flex;
+    justify-content: space-around;
+
+    .list__item {
+      display: inline-block;
+      font-weight: bold;
+
+      &:not(:first-child) {
+        margin-left: 0.5rem;
+      }
+    }
+
+    .list__link {
+      color: $color-two;
+      text-decoration: none;
+
+      &:hover {
+        color: $color-three;
+      }
+    }
+
+    
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .header {
+    font-size: 1.3rem;
+
+    .header__title {
+      display: block;
+      font-size: 1.5rem;
+  }
+}
+}
