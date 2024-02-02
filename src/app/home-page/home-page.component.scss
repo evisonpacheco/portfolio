@@ -1,5 +1,5 @@
 #home {
-    height: 100vh;
-    background: url('../../assets/images/home/background.jpg') no-repeat center fixed;
+    height: calc(100vh - 2.5rem);
+    background: url('../../assets/images/home/background.jpg') no-repeat center;
     background-size: cover;
   }

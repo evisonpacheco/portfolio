@@ -1,6 +1,7 @@
 @import '../../styles/abstract/variables';
 
 #about {
+  height: calc(100vh - 2.5rem);
   margin: 0 auto;
   max-width: 80rem;
   padding: 2rem 1rem;
@@ -8,14 +9,15 @@
   .about__title {
     color: $color-two;
     font-size: 2rem;
-    margin-bottom: 3rem;
+    margin: 3rem 0;
     text-align: center;
   }
 }
 
 .about {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  
   margin: 0 auto;
   max-width: 60rem;
   min-width: 20rem;
@@ -27,8 +29,8 @@
     width: 25rem;
 
     .resume__description {
-      position: absolute;
       text-align: left;
+      margin: 0 1rem 2rem;
       top: 10%;
     }
   }
@@ -40,8 +42,6 @@
   .avatar__image {
     border: 2.5px solid $color-two;
     border-radius: 50%;
-    box-sizing: border-box;
-    max-width: 100%;
 }
 
   .avatar__description {
@@ -51,10 +51,25 @@
 }
 
 @media screen and (min-width: 800px) {
-  .resume__description {
-    font-size: 1.2rem;
+  #about {
+    .about__title {
+      margin: 5rem 0 3rem;
+    }
   }
-
+  
+  .about {
+    .resume {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+  
+      .resume__description {
+        font-size: 1.2rem;
+        margin: 5rem;
+      }
+    }
+  }
+  
   .avatar__description {
     font-size: 1.5rem;
   }
