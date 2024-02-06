@@ -1,15 +1,15 @@
 @import '../../styles/abstract/variables';
 
 #contacts {
+  display: flex;
+  flex-direction: column;
   height: calc(100vh - 2.5rem);
-  margin: 0 auto;
-  max-width: 80rem;
-  padding: 2rem 0;
+  justify-content: space-evenly;
 
   .contacts__title {
     color: $color-two;
     font-size: 2rem;
-    margin-bottom: 3rem;
+    margin: 3rem 0;
     text-align: center;
   }
 }

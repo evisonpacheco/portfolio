@@ -1,7 +1,10 @@
 @import '../../styles/abstract/variables';
 
 #skills {
+  display: flex;
+  flex-direction: column;
   height: calc(100vh - 2.5rem);
+  justify-content: space-evenly;
   margin: 0 auto;
   max-width: 80rem;
   padding: 2rem 1rem;
@@ -18,7 +21,6 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 80%;
   justify-content: space-evenly;
 
   .skill-container {
@@ -47,17 +49,6 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
-  #skills {
-    .skills__title {
-      margin: 5rem 0 3rem;
-    }
-  }
-  .skill-container {
-    width: calc(25% - 2rem) !important;
+@media screen and (min-width: 800px) {
 
-    .skill {
-      width: 15rem;
-    }
-  }
 }

@@ -1,11 +1,14 @@
 @import '../../styles/abstract/variables';
 
 #id-projects {
+  display: flex;
+  flex-direction: column;
   height: calc(100vh - 2.5rem);
+  justify-content: space-evenly;
   margin: 0 auto;
   max-width: 80rem;
   padding: 2rem 1rem;
-  text-align: center;
+  text-align: center;  
 
   .id-projects__title {
     color: $color-two;
@@ -89,11 +92,6 @@
 }
 
 @media screen and (min-width: 800px) {
-  #projects {
-    .projects__title {
-      margin: 5rem 0 3rem;
-    }
-  }
   .projects-carousel {
     width: 40rem !important; 
   }
