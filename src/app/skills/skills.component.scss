@@ -21,12 +21,12 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 
   .skill-container {
     color: $color-zero;
-    margin-bottom: 2rem;
-    width: calc(50% - 2rem);
+    margin: 1rem;
+    width: 20%;
 
     .skill {
       background-color: $color-four;
