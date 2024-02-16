@@ -1,4 +1,4 @@
-@import '../../styles/components/header';
+@import '../../assets/styles/abstract/variables';
 
 .header {
     align-items: center;
@@ -9,6 +9,8 @@
     padding: 1rem 0;
     position: fixed;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
   
     .header__title {
       color: $color-three;
