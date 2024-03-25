@@ -1,98 +1,51 @@
 @import '../../assets/styles/abstract/variables';
 
 #id-projects {
-  display: flex;
-  flex-direction: column;
   height: calc(100vh - 2.5rem);
-  justify-content: space-evenly;
   margin: 0 auto;
   max-width: 80rem;
   padding: 2rem 1rem;
   text-align: center;  
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 
   .id-projects__title {
     color: $color-two;
     font-size: 2rem;
     margin: 3rem 0;
     text-align: center;
-  }
-
-  .id-projects__button {
-    color: $color-zero;
-    font-size: 1rem;
-    font-weight: bold;
-    margin: 1.5rem 1rem 1.5rem;
-    height: 2.2rem;
-    text-align: center;
-    width: 6rem;
-
-    &:hover {
-      cursor: pointer;
-     }
-
-    &--prev {
-      border-radius: 100% 0 0 100%;
-    }
-
-    &--next {
-      border-radius: 0 100% 100% 0;
-    }
-   
-  }
-
-  
+  }  
 }
 
 .projects {
+  display: flex;
   
-  .projects-carousel {
-    background-color: $color-four;
-    border: 3px solid $color-two;
-    display: flex;
-    height: 15rem;
-    width: 15rem;
-  }
-
-  .project:nth-child(1){
-    background-image: url("../../assets/images/projects/background-weather-forecast.jpg");
-    color: $color-four;
-  }
-
-  .project:nth-child(3){
-    background-color: $color-four;
-    color: $color-zero;
-  }
-
   .project {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    border: 1px solid;
     padding: 0 0.5%;
+    width: 100%;
 
-    .project__title {
+    &__title {
+      color: $color-four;
       font-size: 1.35rem;
-      padding: 1rem 0 0;
+      margin: 1rem 0;
       text-align: center;
     }
 
-    .project__link--main {
+    &__link--main {
       color: $color-two;
     }
 
-    .project__description {
+    &__description {
+      color: $color-four;
+      padding: 1rem 0;
       text-align: center;
     }
 
-    .project__link--repository{
+    &__link--repository{
       color: $color-two;
     }
-    
   }  
-  
-}
-
-@media screen and (min-width: 800px) {
-  .projects-carousel {
-    width: 40rem !important; 
-  }
 }
